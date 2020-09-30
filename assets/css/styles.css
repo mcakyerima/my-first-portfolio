@@ -248,7 +248,7 @@ img{
   position: absolute;
   right: 5px;
   bottom: 8px;
-  width: 350px;
+  width: 300px;
 }
 
 /*BUTTONS*/
@@ -355,7 +355,7 @@ img{
 
 /* ===== WORK/ SERVICES=====*/
 .services-section{
-  padding: 60px;
+  padding: 10px;
 }
 .inner-width{
   width: 100%;
@@ -375,6 +375,7 @@ img{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: 100%
 }
 .services-box{
   max-width: 33.33%;
@@ -407,6 +408,8 @@ img{
  }
  .services-desc{
    font-size: 14px;
+   text-align: center;
+   justify-content: space-evenly;
  }
  
 .work__container{
@@ -450,22 +453,23 @@ img{
 .contact-notice{
   text-align: center;
   font-size: 17px;
-  justify-content: center;
-  margin-bottom: 24px;
+  margin-bottom: 2px;
   margin-top: 2px;
   border: none;
+  justify-content: space-between;
 }
 .messenger{
   justify-content: center;
   display: flex;
   flex-direction: row;
+  margin-top: 24px;
 }
 .messenger button{
   font: var(--body-font);
   font-size: 13px;
   display: flex;
   border: none;
-  width: 400px;
+  width: 300px;
   justify-content: center;
   padding: 10px;
   background: rgba(25, 25, 182, 0.877);
@@ -654,9 +658,13 @@ img{
   }
   .home__img{
     right: 5%;
+    width: 500px;
   }
   .home__data .button{
     margin-top: 60px;
+  }
+  .messenger button{
+    width: 400px;
   }
   .services-box{
     max-width: 33%;
